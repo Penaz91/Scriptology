@@ -8,3 +8,4 @@ Highly randomized collection of Bash and Python Scripts
 - **xipwr.sh** Tied to my power switch, when activated it shows a "Close session" dialog, allowing to restart, shut down or logoff.
 - **lock.sh** Uses xset and slock to shut down my laptop screen and lock it with a password.
 - **vol.sh** Tied to 3 key combinations, allows me to raise and lower the volume or mute my speakers
+- **SlideSplitter** A small, dirty and quick tool to split pdf pages with multiple slides to a document which 1 slide per page (Requires PyPDF2), requires the PDF to split to be in the same directory of the .py files. After preparing, execute split.py

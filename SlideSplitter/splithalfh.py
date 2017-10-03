@@ -44,6 +44,6 @@ def splithalfh(inputfilename):
         input = open(join(tempdir, file + ".pdf"), "rb")
         output.append(input)
 
-    os = open(inputfilename+"_splitted.pdf", "wb")
+    os = open(inputfilename+"_split.pdf", "wb")
     output.write(os)
     os.close()
